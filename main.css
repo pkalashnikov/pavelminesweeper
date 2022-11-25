@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "counter";
+    font-style: normal;
+    src: local('counter'), local('counter'),
+        url(fonts/digital_counter_7.ttf);
+}
+
+.main {
+    background-color: silver;
+    margin: 0 auto;
+    width: 250px;
+    border: 5px silver solid;
+}
+.main-8 {
+    background-color: silver;
+    margin: 0 auto;
+    width: 490px;
+    border: 5px silver solid;
+}
+.main-12 {
+    background-color: silver;
+    margin: 0 auto;
+    width: 730px;
+    border: 5px silver solid;
+}
+
+.header {
+    text-align: center;
+    border-left: 5px #808080 solid;
+    border-top: 5px #808080 solid;
+    border-right: 5px #ffffff solid;
+    border-bottom: 5px #ffffff solid;
+    padding-bottom: 7px;
+}
+
+.score {
+    display: inline-block;
+    height: 50px;
+    border: 3px #000 solid;
+    text-align: center;
+    font-family: "counter";
+    float: left;
+    font-size: 40px;
+    margin: 5px;
+    background-color: #000;
+    color: red
+}
+
+.restart {
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    background-size: initial !important;
+    background: url('img/success.png');
+    background-size: 55px !important;
+    margin-top: 5px
+}
+
+.timer {
+    display: inline-block;
+    height: 50px;
+    border: 3px #000 solid;
+    font-family: "counter";
+    text-align: center;
+    float: right;
+    font-size: 40px;
+    margin: 5px;
+    background-color: #000;
+    color: red
+}
+
+.board {
+    border-left: 5px #808080 solid;
+    border-top: 5px #808080 solid;
+    border-right: 5px #ffffff solid;
+    border-bottom: 5px #ffffff solid;
+}
+hr{
+    height:0px;
+    color:silver
+}
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+    height:58px;
+    width:58px;
+	display: inline-block;
+}
+.divTableCell span{
+position: absolute;
+margin-top: 5px;
+text-align: center;
+margin-left: 20px;
+font-size: 40px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+.divTableCell-empty{
+    background-size: initial !important;
+    background: url('img/empty-cell.png');
+    background-size: 60px !important;
+    height:60px;
+    width:60px;
+    display:inline-block
+}
